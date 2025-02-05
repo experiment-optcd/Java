@@ -1,4 +1,3 @@
----
 name: Infer
 
 'on':
@@ -57,4 +56,3 @@ jobs:
         run: |
           mvn clean
           infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test
-...
